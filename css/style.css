@@ -1,0 +1,115 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.background {
+  position: relative;
+}
+
+.background img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  position: fixed;
+  right: 0;
+  padding: 11px 20px 10px 10px;
+  color: white;
+  font-size: 1.625rem;
+}
+
+.weather-city {
+  font-size: 0.975rem;
+  letter-spacing: -0.7px;
+}
+
+.center {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.underline {
+  width: 400px;
+  height: 50px;
+  border: none;
+  background: transparent;
+  border-bottom: 5px solid white;
+}
+
+.center-text {
+  font-size: 300%;
+  color: white;
+}
+
+.time {
+  font-size: 1050%;
+  letter-spacing: -5px;
+  font-weight: 600;
+}
+
+.bottom-left {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  /* align-items: right; */
+  bottom: 0;
+  /* right: 0; */
+  padding: 11px 20px 10px 10px;
+  color: white;
+  font-size: 1.625rem;
+}
+
+.todo-popup {
+  /* left: 94%;
+  top: 75%;
+  transform: translate(-70%, -30%); */
+  /* position: absolute; */
+  width: 300px;
+  min-height: 250px;
+  max-height: 400px;
+  padding: 10px;
+  background: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.todo-input {
+  margin: 0;
+  width: 290px;
+  text-align: left;
+  font-size: 1.6rem;
+  border: none;
+  background: transparent;
+  letter-spacing: -1.5px;
+}
